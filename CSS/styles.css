@@ -11,18 +11,22 @@ nav {
 }
 #gmail {
     padding: 5px;
-    margin: 5px;
+    margin: 7px;
     font-size: 14px;
 }
 #images {
     padding: 5px;
-    margin: 5px;
+    margin: 7px;
     font-size: 14px;
 }
 #menu {
     padding: 5px;
     margin: 5px;
-    width: 20px;
+    width: 22px;
+    border-radius: 50%;
+}
+#menu:hover {
+    background-color: rgba(233, 230, 230, 0.993);
 }
 #sign-in-button {
     background-color: rgba(42, 120, 238, 0.918);
@@ -44,7 +48,7 @@ nav {
 #logo {
     width: 320px;
     display: flex;
-    margin-top: 90px;
+    margin-top: 140px;
 
 }
 #flex-container {
@@ -52,7 +56,35 @@ nav {
     justify-content: center;
 }
 #search-bar {
-    width: 500px;
+    width: 600px;
     height: 40px;
     border-radius: 30px;
+    border-width: 1px;
+    border-color:rgb(243, 242, 242);
+    background-image: url('https://www.seekpng.com/png/full/65-659641_white-magnifying-glass-png-png-library-download-magnifying.png');
+    background-position-x: 20px;
+    background-position-y: center;
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 15px;
+}
+#extra {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.btn {
+    width: 150px;
+    height: 35px;
+    margin: 5px;
+    border-style: none;
+}
+#lang {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
 }
